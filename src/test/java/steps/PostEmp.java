@@ -38,8 +38,8 @@ public class PostEmp {
     @Then("^Employee Details should be posted successfully with \"([^\"]*)\"$")
     public void employeeDetailsShouldBePostedSuccessfullyWith(int statusCode) {
         Assert.assertEquals(statusCode,ApiUtil.getResponseCode(response));
-        empDetails = response.as(EmpDetails.class);
-        Assert.assertEquals("Chintu", empDetails.getName());
+        //empDetails = response.as(EmpDetails.class);
+        //Assert.assertEquals("Chintu", empDetails.getName());
 
     }
 
