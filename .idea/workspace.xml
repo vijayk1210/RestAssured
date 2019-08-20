@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ace1b9-9893-471e-af1d-e930cf9e4302" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/PostEmp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/PostEmp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/EmpPost.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/EmpPost.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/EmpPost.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="126" selection-start-line="19" selection-start-column="126" selection-end-line="19" selection-end-column="126" />
+            <state relative-caret-position="102">
+              <caret line="6" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="9" selection-end-column="143" />
             </state>
           </provider>
         </entry>
@@ -112,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/PostEmp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="51">
+              <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -166,8 +164,8 @@
         <option value="$PROJECT_DIR$/src/test/java/steps/F1Steps.java" />
         <option value="$PROJECT_DIR$/src/test/java/utilities/ApiUtil.java" />
         <option value="$PROJECT_DIR$/config.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/PostEmp.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/EmpPost.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/steps/PostEmp.java" />
       </list>
     </option>
   </component>
@@ -496,9 +494,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Scenario__Get_employee_details - 2019.08.07 at 17h 02m 00s.xml">
-      <configuration name="Scenario: Get employee details" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="Scenario__Get_employee_details - 2019.08.07 at 17h 02m 52s.xml">
       <configuration name="Scenario: Get employee details" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -524,6 +519,9 @@
       <configuration name="Scenario: Post employee details" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Scenario__Post_employee_details - 2019.08.20 at 15h 53m 02s.xml">
+      <configuration name="Scenario: Post employee details" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Scenario__Post_employee_details - 2019.08.20 at 16h 16m 36s.xml">
       <configuration name="Scenario: Post employee details" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
@@ -746,15 +744,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/EmpPost.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="126" selection-start-line="19" selection-start-column="126" selection-end-line="19" selection-end-column="126" />
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="9" selection-end-column="143" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/PostEmp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="51">
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
         </state>
       </provider>
     </entry>

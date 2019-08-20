@@ -7,7 +7,7 @@ Feature: Verify Employee details
 
     Examples:
      | name | permanent  | street            | city      | zipcode       | phoneNumbers                  | role  | endPoint   | statusCode |
-     | chintu   | true       | world street     | faridabad   | 121005       | 9958307606,9958307607  | Consultant   | empDetails |  201       |
+     | pintu   | true       | world street     | faridabad   | 121005       | 9958307606,9958307607  | Consultant   | empDetails |  201       |
 
 
   Scenario Outline: Update employee details
@@ -17,7 +17,7 @@ Feature: Verify Employee details
 
     Examples:
      | name | permanent    | street         | city      | zipcode | phoneNumbers           | role        | endPoint     |  id    | statusCode |
-     | Manto | true        | world street   | faridabad | 121004  | 9958307606,9958307607  | Senior QA   | empDetails   |  136  |   200      |
+     | Manto | true        | world street   | faridabad | 121004  | 9958307606,9958307607  | Senior QA   | empDetails   |  139  |   200      |
 
 
   Scenario: Get employee details
