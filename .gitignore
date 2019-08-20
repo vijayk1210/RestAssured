@@ -1,0 +1,5 @@
+# ignore Files in Result folder
+target/
+test-output/
+
+
