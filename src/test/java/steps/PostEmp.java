@@ -1,5 +1,7 @@
 package steps;
 
+import com.aventstack.extentreports.model.MediaType;
+import com.sun.security.ntlm.Client;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -36,6 +38,9 @@ public class PostEmp {
     @Then("^Employee Details should be posted successfully with \"([^\"]*)\"$")
     public void employeeDetailsShouldBePostedSuccessfullyWith(int statusCode) {
         Assert.assertEquals(statusCode,ApiUtil.getResponseCode(response));
+        empDetails = response.as(EmpDetails.class);
+        Assert.assertEquals("Chintu", empDetails.getName());
+
     }
 
     @Given("^Give employee details like \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\"$")
@@ -67,14 +72,17 @@ public class PostEmp {
     @When("Get request for employee details is initiated with \"([^\"]*)\" as end point and \"([^\"]*)\" as id")
     public void getRequestForEmployeeDetailsIsInitiatedWithAsEndPointAndAsId(String endPoint, String id) {
         response = ApiUtil.getRequest(endPoint , id);
+        //response = ApiUtil.getRequest("");
     }
 
     @Then("^Role should be returned as \"([^\"]*)\"$")
     public void roleShouldBeReturnedAs(String role) {
-        JsonPath jPath = response.jsonPath();
+        /*JsonPath jPath = response.jsonPath();
         String roleActualVal = jPath.get("role");
-        Assert.assertEquals(role,roleActualVal);
-
+        Assert.assertEquals(role,roleActualVal);*/
+        System.out.print("Content type is "+response.getContentType());
+        empDetails = response.as(EmpDetails.class);
+        Assert.assertEquals(role,empDetails.getRole());
     }
 
 

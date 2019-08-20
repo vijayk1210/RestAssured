@@ -60,6 +60,11 @@
             <version>1.2.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>2.9.2</version>
+        </dependency>
 
         <dependency>
             <groupId>io.cucumber</groupId>
@@ -82,6 +87,12 @@
             <groupId>com.aventstack</groupId>
             <artifactId>extentreports</artifactId>
             <version>3.1.2</version>
+        </dependency>
+        <dependency>
+            <groupId>net.minidev</groupId>
+            <artifactId>json-smart</artifactId>
+            <version>2.2.1</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
